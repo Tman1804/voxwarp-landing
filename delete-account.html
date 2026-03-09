@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konto löschen - VoxWarp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #e2e8f0;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #f8fafc;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin: 30px 0 15px;
+            color: #a5b4fc;
+        }
+        p, li {
+            margin-bottom: 15px;
+            color: #94a3b8;
+        }
+        .content {
+            background: rgba(30, 41, 59, 0.5);
+            border-radius: 16px;
+            padding: 40px;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .warning-box h3 {
+            color: #f87171;
+            margin-bottom: 10px;
+        }
+        .steps {
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+        .steps ol {
+            margin-left: 20px;
+        }
+        .steps li {
+            margin-bottom: 12px;
+            color: #e2e8f0;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .data-table th, .data-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+        }
+        .data-table th {
+            background: rgba(99, 102, 241, 0.2);
+            color: #a5b4fc;
+        }
+        .data-table td {
+            color: #94a3b8;
+        }
+        .delete-badge {
+            background: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .retain-badge {
+            background: #f59e0b;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .contact-box {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 8px;
+            padding: 25px;
+            margin: 25px 0;
+            text-align: center;
+        }
+        .contact-box a {
+            color: #4ade80;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #6366f1;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(148, 163, 184, 0.2);
+        }
+        footer a {
+            color: #6366f1;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">VoxWarp</div>
+            <p>Voice-to-Text mit KI</p>
+        </header>
+
+        <div class="content">
+            <h1>Konto und Daten löschen</h1>
+            
+            <p>
+                Du kannst jederzeit die vollständige Löschung deines VoxWarp-Kontos und aller damit 
+                verbundenen Daten anfordern. Diese Seite erklärt den Prozess und welche Daten betroffen sind.
+            </p>
+
+            <h2>So löschst du dein Konto</h2>
+            
+            <div class="steps">
+                <ol>
+                    <li><strong>Sende eine E-Mail</strong> an unsere Datenschutz-Adresse (siehe unten)</li>
+                    <li><strong>Betreff:</strong> "Kontolöschung anfordern"</li>
+                    <li><strong>Inhalt:</strong> Die E-Mail-Adresse, mit der du dich bei VoxWarp registriert hast</li>
+                    <li>Du erhältst innerhalb von <strong>48 Stunden</strong> eine Bestätigung</li>
+                    <li>Dein Konto und alle Daten werden innerhalb von <strong>30 Tagen</strong> vollständig gelöscht</li>
+                </ol>
+            </div>
+
+            <div class="contact-box">
+                <p><strong>Löschungsanfrage senden an:</strong></p>
+                <a href="mailto:privacy@voxwarp.app?subject=Kontolöschung%20anfordern">privacy@voxwarp.app</a>
+            </div>
+
+            <h2>Welche Daten werden gelöscht?</h2>
+            
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Datentyp</th>
+                        <th>Beschreibung</th>
+                        <th>Aktion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kontodaten</td>
+                        <td>E-Mail-Adresse, Anmeldeinformationen</td>
+                        <td><span class="delete-badge">Gelöscht</span></td>
+                    </tr>
+                    <tr>
+                        <td>Nutzungsdaten</td>
+                        <td>Token-Verbrauch, Nutzungsstatistiken</td>
+                        <td><span class="delete-badge">Gelöscht</span></td>
+                    </tr>
+                    <tr>
+                        <td>Aufnahme-Historie</td>
+                        <td>Gespeicherte Transkriptionen und Verarbeitungen</td>
+                        <td><span class="delete-badge">Gelöscht</span></td>
+                    </tr>
+                    <tr>
+                        <td>Zahlungsdaten</td>
+                        <td>Transaktions-IDs (keine Kreditkartendaten gespeichert)</td>
+                        <td><span class="delete-badge">Gelöscht</span></td>
+                    </tr>
+                    <tr>
+                        <td>Rechnungen</td>
+                        <td>Kaufbelege für steuerliche Zwecke</td>
+                        <td><span class="retain-badge">7 Jahre*</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="font-size: 0.9rem;">
+                * Gemäß gesetzlicher Aufbewahrungspflichten (§ 147 AO, § 257 HGB) müssen Rechnungen und 
+                Buchungsbelege für steuerliche Zwecke 7 Jahre aufbewahrt werden. Diese Daten werden 
+                nach Ablauf der Frist automatisch gelöscht.
+            </p>
+
+            <div class="warning-box">
+                <h3>⚠️ Wichtiger Hinweis</h3>
+                <p>
+                    Die Kontolöschung ist <strong>unwiderruflich</strong>. Nach der Löschung:
+                </p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Kannst du nicht mehr auf dein Konto zugreifen</li>
+                    <li>Gehen alle unverbrauchten Tokens verloren</li>
+                    <li>Wird deine gesamte Aufnahme-Historie gelöscht</li>
+                    <li>Können wir deine Daten nicht wiederherstellen</li>
+                </ul>
+            </div>
+
+            <h2>Löschung in der App</h2>
+            <p>
+                Alternativ kannst du dein Konto auch direkt in der VoxWarp-App löschen:
+            </p>
+            <div class="steps">
+                <ol>
+                    <li>Öffne VoxWarp und gehe zu <strong>Einstellungen</strong></li>
+                    <li>Scrolle nach unten zu <strong>"Konto"</strong></li>
+                    <li>Tippe auf <strong>"Konto löschen"</strong></li>
+                    <li>Bestätige die Löschung</li>
+                </ol>
+            </div>
+
+            <h2>Fragen?</h2>
+            <p>
+                Bei Fragen zur Datenlöschung oder zum Datenschutz kontaktiere uns unter 
+                <a href="mailto:privacy@voxwarp.app" style="color: #6366f1;">privacy@voxwarp.app</a>.
+            </p>
+
+            <a href="/" class="back-link">← Zurück zur Startseite</a>
+        </div>
+
+        <footer>
+            <a href="/privacy">Datenschutz</a>
+            <a href="/terms">Nutzungsbedingungen</a>
+            <a href="/delete-account">Konto löschen</a>
+            <p style="margin-top: 20px; color: #64748b;">© 2026 VoxWarp. Alle Rechte vorbehalten.</p>
+        </footer>
+    </div>
+</body>
+</html>
